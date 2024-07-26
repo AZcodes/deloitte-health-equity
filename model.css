@@ -4,7 +4,31 @@ html {
     font-family: sans-serif;
   }
   
-  /* TODO: Edit the properties below to customize your website! */
+  /* nav bar design */
+
+.nav{
+    background-color: rgb(209, 141, 209);
+    overflow: hidden;
+    margin-top: -10px;
+}
+
+.nav a{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Lexend", sans-serif;
+
+}
+
+.nav a:hover{
+    background-color: rgb(160, 67, 155);
+    color:black;
+}
+
+  
   body {
     background-color: mediumpurple;
     
@@ -15,7 +39,7 @@ html {
   
   h1 {
     font-size: 20pt;
-    margin: 20px 50px 30px 50px;
+    
   }
   
   p {
@@ -33,7 +57,14 @@ html {
     margin: 50px 0 10px 0;
   }
   
-  /* Edit me to change the appearance of the button! */
+  /* designing tips section */
+  .tips{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
   button {
     font-size: 12pt;
   

@@ -6,26 +6,19 @@
   <meta name="viewport" content="width=device-width">
   <title>My Machine Learning Model</title>
   <link href="model.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- Hello! Welcome to the IMAGE TEMPLATE YAAY \(^0 ^)/
-  You're in the process of building something *amazing*
-  
-  Tips to get started:
-  1) Change the text on line 31 to a new title for your website!
-    (P.S. You can also change the tab title on line 7)
+    <div class = "nav">
+        <a class = "active" href = "objectclassifier.html">AI Recommendations</a>
+        <a class = "resources" href = "resources.html">Resources</a>
+        <a class = "home" href = "index.html">Home</a>
+      </div>  
 
-  2) Paste a link to your model in the "script.js" file (you can find it in the menu on the left)
-
-  3) Press the Start! button in the Webview panel to see your model in action -(*o* )- . Note: It may take a few seconds to load.
-
-  Press the refresh button in the Webview to close the camera.
-
-  4) Add your own colors and styling in the "style.css" file in the left menu!
-  
-  -->
 
   <div class="bubble">
     <h1>Self Care Found in Your Environment 📷</h1>
@@ -37,9 +30,33 @@
     <div id="label-container"></div> <!-- Show the predicted label -->
   </div>
 
-  <div class="bubble">
-    <h1>About the Creator</h1>
+  <div class="tips">
+    <h1>Tips for Your Result</h1>
+    <div class = "mug">
+        <h3>If you have a mug..</h3>
+        <p>Try making herbal tea and skip the extra caffiene, which can make you anxious! <br> Go for chamomile, lavender, or peppermint!</p>
+    </div>
     
+    <div class = "waterbottle">
+        <h3>If you have water..</h3>
+        <p>Try getting at least 64 ounces of water in today!</p>
+    </div>
+
+    <div class = "pen">
+        <h3>If you have a pen..</h3>
+        <p>Try journalling about anything that is on your mind!</p>
+    </div>
+
+    <div class = "smartphone">
+        <h3>If you have a smartphone..</h3>
+        <p>Try reducing your screentime for today, or use it to access one of our wellness resources!</p>
+    </div>
+
+    <div class = "pillow">
+        <h3>If you're near a pillow..</h3>
+        <p>Try using the sleep calculator linked in our resources, and get enough sleep!!</p>
+    </div>
+
   </div>
   
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>

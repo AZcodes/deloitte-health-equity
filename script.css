@@ -5,11 +5,12 @@ body{
 .nav{
     background-color: rgb(209, 141, 209);
     overflow: hidden;
+    margin-top: -10px;
 }
 
 .nav a{
-    float: left;
-    color: rgb(255, 255, 255);
+    float: right;
+    color: black;
     text-align: center;
     padding: 20px;
     text-decoration: none;
@@ -21,3 +22,16 @@ body{
     color:black;
 }
 
+.missionStatement img{
+    float:left;
+}
+
+.missionStatement p{
+    font-size: 40px;
+    float:right;
+    margin-top: 90px;
+    margin-right: 220px;
+    border-style: solid;
+    border-radius: 25px;
+    
+}
